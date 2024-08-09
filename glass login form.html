@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>Hello, World!</title>
+</head>
+
+<style>
+
+.back{
+  
+  height:750px;
+  width:700px;
+  position:absolute;
+  left:15%;
+  border-radius:40px;
+  top:18%;
+  backdrop-filter:blur(30px);
+  background-color:rgba(255,255,255,0.2);
+  border:black 3px;
+  box-shadow:0px 0px 200px grey;
+   
+}
+
+.body{
+  
+  
+  
+}
+
+.log{
+  
+  position:absolute;
+  left:100px;
+  top:120px;
+  color:grey;
+  font-size:60px;
+  -webkit-text-stroke:;
+  font-weight:thin;
+  
+}
+
+.t{
+  
+ position:absolute;
+ top:230px;
+ left:100px;
+ width:480px;
+ height:80px;
+ border:none;
+ border-radius:20px;
+ outline:none;
+ font-size:35px;
+ padding-left:30px;
+ background:rgba(255,255,255,0.0);
+ color:grey;
+ backdrop-filter:blur(15px);
+ box-shadow:0px 0px 200px grey;
+ 
+  
+}
+
+.p{
+  
+  position:absolute;
+ top:380px;
+ left:100px;
+ width:480px;
+ height:80px;
+ border:none;
+ border-radius:20px;
+ outline:none;
+ font-size:35px;
+ padding-left:30px;
+ background:rgba(255,255,255,0.0);
+ color:grey;
+ backdrop-filter:blur(15px);
+ box-shadow:0px 0px 200px grey;
+  
+}
+
+.btn{
+  
+  position:absolute;
+  top:550px;
+  left:100px;
+  height:65px;
+  width:175px;
+  font-size:30px;
+  border:none;
+  border-radius:30px;
+  color:black;
+  background:rgba(255,255,255,0.8);
+  box-shadow:0px 0px 100px grey;
+  
+}
+
+font{
+  
+  position:absolute;
+  top:480px;
+  left:410px;
+  color:#646565;
+  font-size:28px;
+  
+  
+}
+
+</style>
+
+<body class="body" style="background-repeat:no-repeat;
+  background:linear-gradient(
+  
+  130deg,
+  cyan,
+  pink">
+ 
+  <div class="back">
+    
+    <div class="log">Login form</div>
+    
+    <form>
+      
+      <input type="text" class="t" placeholder="User name" required="required">
+      <input type="password" class="p" placeholder="Password" required="required">
+      
+      <font>Forgot password ?</font>
+      
+      <input type="submit" value="Login" class="btn" onclick="btn()">
+      
+    </form>
+    
+  </div>
+  
+  <script>
+  
+  
+  function btn()
+  {
+    
+    window.alert("logged in successfully");
+    
+  }
+  
+  
+  </script>
+  
+</body>
+</html>
